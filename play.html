@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Play Car Logo</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap" rel="stylesheet">
+  <script src="js/main.js" defer></script> 
+</head>
+<body>
+  <div class="body-container2">
+    <div class="header-main-container2">
+      <header>
+        <div class="header-wrapper2">
+          <div class="help-icons">
+            <div>
+              <img src="./images/volume.png" alt="volume icon" id="sound-icon">
+            </div>
+            <div>
+              <img src="./images/volume-mute.png" alt="volume mute icon" id="mute-icon">
+            </div>
+          </div>
+          <div class="level">
+            <h1>Level <span class="level-number"></span></h1>
+          </div>
+          <div class="help-icons">
+            <div>
+              <img src="./images/gear.png" alt="settings(gear) icon" id="settings-icon">
+            </div>
+            <div>
+              <img src="./images/info.png" alt="info icon" id="info-icon">
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+    <main>
+      <div class="main-container2">
+        <div class="main-play-wrapper">
+          <div class="carname">
+            <h2>Guess the Car Logo</h2>
+          </div>
+          <canvas id="my_canvas" width="300" height="300"></canvas>
+          <div id="message-container"></div>
+          <form>
+            <div class=play-form>
+              <div class="play-input">
+                <input type="text" name="name" placeholder="Car name:">
+              </div>
+              <div class="play-btn">
+                <button type="submit">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <div class="footer-container2">
+      <footer>
+        <div class="home-like-icons">
+          <a href="./index.html" id="home-icon"><img src="./images/home.png" alt="home icon"></a>
+          <a href="#" id="thumbs-up"><img src="./images/thumbs-up.png" alt="thumbs up icon"></a>
+          <a href="#" id="thumbs-down"><img src="./images/thumbs-down.png" alt="thumbs down icon"> </a>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <div id="overlay"></div>
+  <div id="settings-modal">
+    <h3>Settings</h3>
+    <button id="dark-mode-toggle">Toggle Dark Mode</button>
+    <button id="close-settings">Close</button>
+  </div>
+</body>
+</html>

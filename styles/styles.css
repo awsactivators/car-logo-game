@@ -1,0 +1,1040 @@
+/* Default */
+
+:root {
+  --accent-color: #CE2E2E;
+  --bg-color: #FFF9F0;
+  --shadow-color: #E38080;
+  --box-shadow-color: #560000;
+}
+
+body {
+  margin: 0;
+  font-family: "Darumadrop One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: var(--bg-color);
+  overflow-x: hidden;
+}
+
+
+
+/* Home Page */
+/***************************************************************/
+
+/* Header */
+
+.header-main-container {
+  /* background-image: url(../images/woody-hero-bg.png); */
+  background-image: url(../images/bg-blue-small.jpeg);
+  height: 950px;
+  background-repeat: no-repeat;
+  background-size: 1800px 950px;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+.header-wrapper h1 {
+  letter-spacing: 5px;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 0px;
+  text-shadow: 0 4px 4px var(--shadow-color);
+}
+
+.header-wrapper p {
+  font-size: 28px;
+}
+
+
+
+/* Main */
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gif img{
+  width: 250px;
+  height: 300px;
+  padding-bottom: 80px;
+}
+
+.home-buttons {
+  display: flex;
+  flex-direction: column;
+  row-gap: 80px;
+  
+}
+
+.play-btn a, .support-btn a {
+  background-color: var(--accent-color);
+  padding: 5px 30px;
+  text-align: center;
+  text-decoration: none;
+  width: 130px;
+  border-radius: 50px;
+  border: 2px solid white;
+  font-family: "Darumadrop One", sans-serif;
+  font-size: 25px;
+  color: white;
+  box-shadow: 0 4px 3px var(--box-shadow-color);
+}
+
+.play-btn a{
+  min-width: 130px;
+  padding-right: 46.5px;
+  padding-left: 46.5px;
+}
+
+
+
+
+/* Footer */
+
+.footer-container {
+  height: 120px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  column-gap: 50px;
+  font-size: 35px;
+}
+
+.social-icons a:visited {
+  color: black;
+}
+
+.copyright p{
+  padding: 20px 0 15px 20px;
+  font-size: 18px;
+}
+
+
+
+
+/* Play Page */
+/***************************************************************/
+
+/* Header */
+
+.header-main-container2 {
+  /* background-image: url(../images/woody-hero-header.png); */
+  background-image: url(../images/bg-blue-small.jpeg);
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: 1800px 200px;
+}
+
+.header-wrapper2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.header-wrapper2 h1 {
+  background-color: var(--accent-color);
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  width: 130px;
+  border-radius: 50px;
+  border: 2px solid white;
+  font-family: "Darumadrop One", sans-serif;
+  font-size: 25px;
+  color: white;
+  box-shadow: 0 4px 3px rgb(98, 98, 98);
+}
+
+.help-icons {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  font-size: 30px;
+}
+
+
+
+/* Main */
+.main-container2 {
+  height: 680px;
+  /* background-size: 1800px 300px; */
+}
+
+.main-play-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.carname h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 0 30px 0;
+}
+
+.puzzle {
+  display: flex;
+  /* margin: 25px 0 45px 0; */
+}
+
+#puzzle {
+  pointer-events: none; 
+}
+
+#my_canvas {
+  position: relative;
+  border: 2px solid black; 
+  width: 300px; 
+  height: 358px; 
+  margin: 20px 0 50px 0;
+  border: 1px solid black;
+}
+
+#message-container {
+  text-align: center; 
+  margin: 0 0 10px 0; 
+  font-size: 1.2rem;
+}
+
+.play-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+
+.play-input input {
+  padding: 15px;
+  width: 180px;
+  border-radius: 15px;
+  background-color: var(--bg-color);
+}
+
+.play-btn {
+  text-align: center;
+}
+
+.play-btn button{
+  padding: 12px 20px 12px 20px;
+  border-radius: 50px;
+  font-family: "Darumadrop One", sans-serif;
+  background-color: var(--accent-color);
+  border: none;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 18px;
+}
+
+
+
+/* Footer */
+.footer-container2 {
+  /* background-image: url(../images/woody-hero-footer.png); */
+  background-image: url(../images/bg-blue-small.jpeg);
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: 1800px 150px;
+
+}
+
+.home-like-icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.home-like-icons a {
+  text-decoration: none;
+  color: black;
+  font-size: 40px;
+  margin-top: 40px;
+}
+
+#thumbs-up img,
+#thumbs-down img {
+  width: 40px; /* Adjust as needed */
+  height: 40px;
+  transition: 0.3s ease;
+  filter: grayscale(100%); /* Default color is black */
+}
+
+
+.liked img {
+
+  transform: scale(1.2);
+}
+
+.disliked img {
+
+  transform: scale(0.8);
+}
+
+
+
+
+/* Completed Page */
+/***************************************************************/
+
+/* Header */
+
+.level h1{
+  width: 230px;
+  padding: 10px;
+}
+
+
+/* Main */
+
+.main-container3 {
+  height: 660px;
+}
+
+.main-player-wrapper2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+
+.carname h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 0 30px 0;
+
+}
+
+.puzzle-wrapper {
+  width: 300px; 
+  height: 300px;
+  margin-bottom: 130px;
+}
+
+
+.completed-jigsaw-puzzle img {
+  object-fit: cover; 
+  border: 2px solid black; 
+  width: 300px;
+  height: 500px;
+}
+
+
+.hero-info {
+  font-size: 1rem;
+  line-height: 1.5;
+  max-width: 300px; 
+  margin-bottom: 30px;
+}
+
+
+.prev-next-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 130px; 
+  padding: 12px 20px 12px 20px;
+}
+
+.prev-next-buttons a {
+  padding: 8px 25px 8px 25px;
+  border-radius: 50px;
+  font-family: "Darumadrop One", sans-serif;
+  background-color: var(--accent-color);
+  border: none;
+  color: white;
+  letter-spacing: 2px;
+  display: inline-block;
+  font-size: 1rem;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.prev-next-buttons a:hover {
+  background-color: #0056b3; 
+}
+
+
+/* Footer */
+
+.footer-container3 {
+  /* background-image: url(../images/woody-hero-footer.png); */
+  background-image: url(../images/bg-blue-small.jpeg);
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: 1800px 150px;
+
+}
+
+.home-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.home-icons a {
+  text-decoration: none;
+  color: black;
+  font-size: 40px;
+  margin-top: 22px;
+}
+
+
+
+/* Puzzle */
+/***************************************************************/
+
+
+/* Play-Completed */
+
+/* Modal Background Overlay  */
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1000; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+
+
+.modal-content {
+  background-color: #fff;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 80%; 
+  max-width: 600px;
+  text-align: center;
+  position: relative;
+}
+
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: #aaa;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: #000;
+}
+
+
+/* Help Icons */
+/***************************************************************/
+
+/* Info Box Dropdown */
+#mute-icon {
+  display: none;
+}
+
+#info-box {
+  position: absolute;
+  top: 50px; 
+  left: 50%; 
+  transform: translateX(-50%);
+  /* background: url(../images/wood.jpg);  */
+  background-color: white;
+  color: #000;
+  background-size: cover;
+  border-radius: 8px;
+  padding: 10px 15px;
+  width: 150px; 
+  text-align: center;
+  font-size: 1rem;
+  display: none; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 100; 
+}
+
+#info-box::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 0px 10px 10px 10px; /* Arrow pointing up */
+  border-style: solid;
+  border-color: transparent transparent rgba(0, 0, 0, 0.2) transparent; 
+}
+
+/* Settings Modal */
+#settings-modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  
+}
+
+#settings-modal button {
+  font-family: "Darumadrop One", sans-serif;
+  letter-spacing: 2px;
+}
+
+#settings-modal button {
+  margin: 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #222;
+  color: #fff;
+}
+
+body.dark-mode .modal-content {
+  background-color: #333;
+  color: #fff;
+}
+
+
+/* Overlay for fading background */
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8); 
+  display: none; 
+  z-index: 999; 
+}
+
+/* Modal styles */
+#settings-modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  z-index: 1000; /* Above the overlay */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Modal buttons */
+#settings-modal button {
+  margin: 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--accent-color); 
+  color: white;
+}
+
+#settings-modal button:hover {
+  background-color: #033b77; 
+}
+
+
+/* Liked icon */
+#thumbs-up.liked i {
+  color: var(--accent-color); 
+}
+
+/* Disliked icon */
+#thumbs-down.disliked i {
+  color: var(--accent-color); 
+}
+
+/* Reset icon color when not liked or disliked */
+#thumbs-up i, #thumbs-down i {
+  color: black; 
+}
+
+
+
+
+/* Support Page */
+/***************************************************************/
+
+/* Header */
+
+.header-support-container {
+  height: 180px;
+}
+
+.header-support-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
+
+.page-name h1 {
+  letter-spacing: 5px;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 0px;
+}
+
+
+.home-icon a {
+  text-decoration: none;
+  color: black;
+  font-size: 40px;
+  margin-top: 22px;
+}
+
+
+
+
+/* Main */
+
+
+.main-footer {
+  /* background-image: url(../images/support-bg.png); */
+  background-image: url(../images/bg-blue-small.jpeg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: 1800px 1800px;
+}
+
+.objective{
+  font-size: 18px;
+  margin: 100px 150px 0 150px;
+}
+
+.lists, .tips, .help {
+  margin: 40px 150px 0 150px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: lighter;
+}
+
+
+
+
+/* Footer */
+
+
+.social-support-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.support-icons {
+  display: flex;
+  padding-top: 50px;
+  column-gap: 50px;
+  font-size: 35px;
+}
+
+.social-support-icons a:visited {
+  color: black;
+}
+
+
+.copyright p{
+  padding: 20px 0 10px 20px;
+  font-size: 18px;
+
+}
+
+
+
+
+/* Media Query for Tablets (768px and below) */
+@media screen and (max-width: 768px) {
+  .header-main-container {
+    height: 820px;
+    background-size: cover;
+  }
+
+  .header-main-container2 {
+    height: 200px;
+    background-size: cover;
+  }
+
+  .header-wrapper h1 {
+    font-size: 35px;
+  }
+
+  .header-wrapper p {
+    font-size: 24px;
+  }
+
+  .main-container, .main-container2, .main-container3 {
+    padding: 0 20px;
+  }
+
+  .gif img {
+    width: 200px;
+    height: 250px;
+  }
+
+  .play-btn a, .support-btn a {
+    font-size: 20px;
+    width: 100px;
+    padding: 5px 20px;
+  }
+
+  .footer-container, .footer-container2, .footer-container3 {
+    height: 100px;
+  }
+
+  .social-icons a, .home-like-icons a, .home-icons a {
+    font-size: 30px;
+  }
+
+  .header-wrapper2 h1 {
+    font-size: 18px;
+  }
+
+  .page-name h1 {
+    letter-spacing: 5px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 0px;
+  }
+
+  .lists, .tips, .help, .navigation {
+    margin: 30px;
+  }
+
+  .objective {
+    margin: 80px 0 0 13px;
+  }
+}
+
+
+/* Media Query for Tablets (630px and below) */
+@media screen and (max-width: 630px) {
+  .header-main-container {
+    height: 820px;
+    background-size: cover;
+  }
+
+  .header-main-container2 {
+    height: 200px;
+    background-size: cover;
+  }
+
+  .header-wrapper {
+    padding-bottom: 50px;
+  }
+
+  .header-wrapper p {
+    padding: 0 30px;
+    text-align: center;
+  }
+
+  .home-buttons {
+    row-gap: 50px;
+  }
+
+  .main-container, .main-container2, .main-container3 {
+    padding: 0 20px;
+  }
+
+  .gif img {
+    width: 200px;
+    height: 250px;
+  }
+
+  .play-btn a, .support-btn a {
+    font-size: 20px;
+    width: 100px;
+    padding: 5px 20px;
+  }
+
+  .footer-container, .footer-container2, .footer-container3 {
+    height: 100px;
+  }
+
+  .social-icons a, .home-like-icons a, .home-icons a {
+    font-size: 30px;
+  }
+
+  .header-wrapper2 h1 {
+    font-size: 18px;
+  }
+
+  .page-name h1 {
+    letter-spacing: 5px;
+    font-weight: 600;
+    font-size: 40px;
+  }
+
+  #info-box {
+    width: 100px; 
+  }
+  
+}
+
+
+/* Media Query for Tablets (510px and below) */
+@media screen and (max-width: 510px) {
+  .header-main-container {
+    height: 820px;
+    background-size: cover;
+  }
+
+  .header-main-container2 {
+    height: 200px;
+    background-size: cover;
+  }
+
+  .header-wrapper h1 {
+    font-size: 35px;
+  }
+
+  .main-container, .main-container2, .main-container3 {
+    padding: 0 20px;
+  }
+
+  .gif img {
+    width: 200px;
+    height: 250px;
+  }
+
+  .play-btn a, .support-btn a {
+    font-size: 20px;
+    width: 100px;
+    padding: 5px 20px;
+  }
+
+  .footer-container, .footer-container2, .footer-container3 {
+    height: 100px;
+  }
+
+  .social-icons a, .home-like-icons a, .home-icons a {
+    font-size: 30px;
+  }
+
+  .header-wrapper2 h1 {
+    font-size: 18px;
+  }
+
+  .page-name h1 {
+    letter-spacing: 5px;
+    font-weight: 600;
+    font-size: 40px;
+  }
+
+  #info-box {
+    width: 70px;
+
+  }
+}
+
+
+/* Media Query for Tablets (480px and below) */
+@media screen and (max-width: 480px) {
+  .header-main-container {
+    height: 820px;
+    background-size: cover;
+  }
+
+  .header-main-container2 {
+    height: 200px;
+    background-size: cover;
+  }
+
+  .header-wrapper h1 {
+    font-size: 35px;
+  }
+
+  .header-wrapper p {
+    margin-bottom: 25px;
+  }
+
+  .main-container, .main-container2, .main-container3 {
+    padding: 0 20px;
+  }
+
+  .gif img {
+    width: 200px;
+    height: 250px;
+  }
+
+  .play-btn a, .support-btn a {
+    font-size: 20px;
+    width: 100px;
+    padding: 5px 20px;
+  }
+
+  .footer-container, .footer-container2, .footer-container3 {
+    height: 100px;
+  }
+
+  .social-icons a, .home-like-icons a, .home-icons a {
+    font-size: 30px;
+  }
+
+  .header-wrapper2 h1 {
+    font-size: 18px;
+  }
+
+  .page-name h1 {
+    letter-spacing: 5px;
+    font-weight: 600;
+    font-size: 40px;
+  }
+}
+
+
+
+/* Media Query for Phones (320px and below) */
+@media screen and (max-width: 320px) {
+  .header-main-container {
+    height: 880px;
+    background-size: cover;
+  }
+
+  .header-main-container2 {
+    height: 200px;
+    background-size: cover;
+  }
+
+  .header-wrapper h1 {
+    font-size: 35px;
+    letter-spacing: 2px;
+  }
+
+  .header-wrapper p {
+    font-size: 16px;
+  }
+
+  .header-wrapper {
+    padding-bottom: 40px;
+  }
+
+  .header-wrapper2 {
+    margin: 0 10px;
+  }
+
+  .level h1{
+    width: 80PX;
+  }
+
+  .main-container2 {
+    height: 630px;
+  }
+
+  .main-container3 {
+    height: 700px;
+  }
+
+  .home-buttons {
+    row-gap: 60px;
+  }
+
+  .header-wrapper p {
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding: 20px 20px 0px 20px;
+    text-align: center;
+  }
+
+  .gif img {
+    width: 150px;
+    height: 200px;
+    padding-bottom: 60px;
+  }
+
+  .play-btn a, .support-btn a {
+    font-size: 16px;
+    width: 80px;
+    padding: 5px 15px;
+  }
+
+  .footer-container, .footer-container2, .footer-container3 {
+    height: 90px;
+  }
+
+  .social-icons a, .home-like-icons a, .home-icons a {
+    font-size: 25px;
+  }
+
+  .header-wrapper2 h1 {
+    font-size: 15px;
+  }
+
+  #my_canvas {
+    width: 240px;
+    height: 280px;
+  }
+
+  .completed-jigsaw-puzzle img {
+    width: 240px;
+    height: 400px;
+  }
+
+  .modal-content {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .header-support-wrapper {
+    margin: 0 30px;
+  }
+
+  .page-name h1 {
+    letter-spacing: 5px;
+    font-weight: 700;
+    font-size: 40px;
+  }
+
+  .lists, .tips, .help, .navigation {
+    margin: 13px;
+  }
+
+  .objective {
+    margin: 80px 0 0 13px;
+  }
+
+  #info-box {
+    width: 50px;
+    padding: 5px;
+  }
+
+  #settings-modal {
+    width: 200px;
+  }
+
+
+  
+}
