@@ -801,6 +801,10 @@ body.dark-mode .modal-content {
   #info-box {
     width: 100px; 
   }
+
+  .main-footer {
+    background-size: 1800px 2000px;
+  }
   
 }
 
@@ -858,6 +862,10 @@ body.dark-mode .modal-content {
     width: 70px;
 
   }
+
+  .main-footer {
+    background-size: 1800px 2060px;
+  }
 }
 
 
@@ -913,8 +921,25 @@ body.dark-mode .modal-content {
     font-weight: 600;
     font-size: 40px;
   }
+
+  .main-footer {
+    background-size: 1800px 2500px;
+  }
 }
 
+/* Media Query for Phones (390px and below) */
+@media screen and (max-width: 390px) {
+  .main-footer {
+    background-size: 1800px 2700px;
+  }
+}
+
+/* Media Query for Phones (350px and below) */
+@media screen and (max-width: 350px) {
+  .main-footer {
+    background-size: 1800px 2900px;
+  }
+}
 
 
 /* Media Query for Phones (320px and below) */
@@ -1035,6 +1060,8 @@ body.dark-mode .modal-content {
     width: 200px;
   }
 
-
+  .main-footer {
+    background-size: 1800px 3000px;
+  }
   
 }
